@@ -1,0 +1,202 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=RelWithDebInfo\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=11\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "pref": null,
+    "options": "bzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\ndocopt.cpp:boost_regex=False\ndocopt.cpp:fPIC=True\ndocopt.cpp:shared=False\nflac:fPIC=True\nflac:shared=False\nfmt:fPIC=True\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nfreetype:fPIC=True\nfreetype:shared=False\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nimgui-sfml:fPIC=True\nimgui-sfml:imconfig=None\nimgui-sfml:imconfig_install_folder=None\nimgui-sfml:shared=False\nlibalsa:disable_python=True\nlibalsa:fPIC=True\nlibalsa:shared=False\nlibpng:api_prefix=None\nlibpng:fPIC=True\nlibpng:shared=False\nlibx11:fPIC=True\nlibx11:shared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxcb:fPIC=True\nlibxcb:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False\nlibxext:fPIC=True\nlibxext:shared=False\nlibxrandr:fPIC=True\nlibxrandr:shared=False\nlibxrender:fPIC=True\nlibxrender:shared=False\nogg:fPIC=True\nogg:shared=False\nopenal:fPIC=True\nopenal:shared=False\nopengl:provider=system\nsfml:audio=True\nsfml:fPIC=True\nsfml:graphics=True\nsfml:network=True\nsfml:shared=False\nsfml:window=True\nspdlog:fPIC=True\nspdlog:header_only=False\nspdlog:no_exceptions=False\nspdlog:shared=False\nspdlog:wchar_filenames=False\nspdlog:wchar_support=False\nvorbis:fPIC=True\nvorbis:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "1",
+     "27",
+     "28",
+     "29",
+     "30"
+    ],
+    "path": "/home/alejandro/Proyectos/stdvector_visualizer/build/conanfile.txt"
+   },
+   "1": {
+    "pref": "imgui-sfml/2.1@bincrafters/stable#0:1aae559fc6f9de579d0dcbd3bf0e982d9c3a679d#afbb9533ab3772187074343412a4c565",
+    "options": "fPIC=True\nimconfig=None\nimconfig_install_folder=None\nshared=False\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nflac:fPIC=True\nflac:shared=False\nfreetype:fPIC=True\nfreetype:shared=False\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibalsa:disable_python=True\nlibalsa:fPIC=True\nlibalsa:shared=False\nlibpng:api_prefix=None\nlibpng:fPIC=True\nlibpng:shared=False\nlibx11:fPIC=True\nlibx11:shared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxcb:fPIC=True\nlibxcb:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False\nlibxext:fPIC=True\nlibxext:shared=False\nlibxrandr:fPIC=True\nlibxrandr:shared=False\nlibxrender:fPIC=True\nlibxrender:shared=False\nogg:fPIC=True\nogg:shared=False\nopenal:fPIC=True\nopenal:shared=False\nopengl:provider=system\nsfml:audio=True\nsfml:fPIC=True\nsfml:graphics=True\nsfml:network=True\nsfml:shared=False\nsfml:window=True\nvorbis:fPIC=True\nvorbis:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "2"
+    ]
+   },
+   "2": {
+    "pref": "sfml/2.5.1@bincrafters/stable#0:ab2b9aed3be18502eaf6ff999f2130c7fa56cdbe#308651c7b44ee405e622fbb93098b69c",
+    "options": "audio=True\nfPIC=True\ngraphics=True\nnetwork=True\nshared=False\nwindow=True\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nflac:fPIC=True\nflac:shared=False\nfreetype:fPIC=True\nfreetype:shared=False\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibalsa:disable_python=True\nlibalsa:fPIC=True\nlibalsa:shared=False\nlibpng:api_prefix=None\nlibpng:fPIC=True\nlibpng:shared=False\nlibx11:fPIC=True\nlibx11:shared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxcb:fPIC=True\nlibxcb:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False\nlibxext:fPIC=True\nlibxext:shared=False\nlibxrandr:fPIC=True\nlibxrandr:shared=False\nlibxrender:fPIC=True\nlibxrender:shared=False\nogg:fPIC=True\nogg:shared=False\nopenal:fPIC=True\nopenal:shared=False\nopengl:provider=system\nvorbis:fPIC=True\nvorbis:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "3",
+     "7",
+     "8",
+     "10",
+     "11",
+     "12",
+     "13",
+     "23",
+     "26"
+    ]
+   },
+   "3": {
+    "pref": "freetype/2.10.1#0:bb93f90b297fadba4bed5fd284e0fc39902a1d0f#910e59ecab681c05792ccb9b9e63c318",
+    "options": "fPIC=True\nshared=False\nwith_bzip2=True\nwith_png=True\nwith_zlib=True\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlibpng:api_prefix=None\nlibpng:fPIC=True\nlibpng:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "4": {
+    "pref": "libpng/1.6.37#0:24d787000f79c3fdf12ef26a84a1f3037cae7823#a335a291b013ae9229c252081dd2ba27",
+    "options": "api_prefix=None\nfPIC=True\nshared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "5"
+    ]
+   },
+   "5": {
+    "pref": "zlib/1.2.11#0:167d94f790a13d2d452e6674cb4624f82019d653#6dd5f4667470c5cef5b69e0d1c2c1d6c",
+    "options": "fPIC=True\nminizip=False\nshared=False"
+   },
+   "6": {
+    "pref": "bzip2/1.0.8#0:dde050cc3bd51f926e5a96a67160056fcced7502#fba67ddefba58a030ad4dfae80bc8f1b",
+    "options": "build_executable=True\nfPIC=True\nshared=False"
+   },
+   "7": {
+    "pref": "stb/20200203#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "8": {
+    "pref": "openal/1.19.1#0:ff65a42ae13218ccfab2f3a61e5b8ae0c33189a3#02fe596f684bc5a8d3fbed0430229afd",
+    "options": "fPIC=True\nshared=False\nlibalsa:disable_python=True\nlibalsa:fPIC=True\nlibalsa:shared=False",
+    "requires": [
+     "9"
+    ]
+   },
+   "9": {
+    "pref": "libalsa/1.1.9#0:eb220f46c549ee5ea55009fc23ae2857a6ec2ddf#136aadc9684a19c0922506d1e5a88c5b",
+    "options": "disable_python=True\nfPIC=True\nshared=False"
+   },
+   "10": {
+    "pref": "flac/1.3.3#0:422e3595ae6e63c3d40d6340024ed0007f9ee962#32190663b1249e7cac9ae2e6cfba8e81",
+    "options": "fPIC=True\nshared=False\nogg:fPIC=True\nogg:shared=False",
+    "requires": [
+     "11"
+    ]
+   },
+   "11": {
+    "pref": "ogg/1.3.4#0:167d94f790a13d2d452e6674cb4624f82019d653#ca3bd15c872f18e36aacd3f09ea9d9fc",
+    "options": "fPIC=True\nshared=False"
+   },
+   "12": {
+    "pref": "vorbis/1.3.6#0:4538a904e7348f8f956da4d935f88dba2c96ce77#b0ab6abd1a9ba91eb037788f42a7fdbd",
+    "options": "fPIC=True\nshared=False\nogg:fPIC=True\nogg:shared=False",
+    "requires": [
+     "11"
+    ]
+   },
+   "13": {
+    "pref": "libx11/1.6.8@bincrafters/stable#0:98612d751c94f71a576e260f3e9804db8fd2110a#008d6b843d0b0064adfecae57968fe6c",
+    "options": "fPIC=True\nshared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxcb:fPIC=True\nlibxcb:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False",
+    "requires": [
+     "14",
+     "15",
+     "16"
+    ]
+   },
+   "14": {
+    "pref": "xorgproto/2019.1@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "15": {
+    "pref": "xtrans/1.4.0@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "16": {
+    "pref": "libxcb/1.13.1@bincrafters/stable#0:2072d0ecdd81530239fe725171f8e43e57f24904#380cd5fad073d497b892c5fdfaf9d7e0",
+    "options": "fPIC=True\nshared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False",
+    "requires": [
+     "17",
+     "18",
+     "19",
+     "20",
+     "21"
+    ]
+   },
+   "17": {
+    "pref": "xcb-proto/1.13@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "18": {
+    "pref": "util-macros/1.19.2@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "19": {
+    "pref": "libxau/1.0.9@bincrafters/stable#0:87f0737b09b46c2b1ee19f638d7de7f1edf4f979#d9a85bc48c591bd2e9e58e6841d43442",
+    "options": "fPIC=True\nshared=False",
+    "requires": [
+     "14"
+    ]
+   },
+   "20": {
+    "pref": "libpthread-stubs/0.1@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "21": {
+    "pref": "libxdmcp/1.1.3@bincrafters/stable#0:bca765b38e7436344786503cd954c6b6147cbe4c#f863d7e6e89fee5be5db67d136039c5f",
+    "options": "fPIC=True\nshared=False",
+    "requires": [
+     "22"
+    ]
+   },
+   "22": {
+    "pref": "xproto/7.0.31@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "23": {
+    "pref": "libxrandr/1.5.2@bincrafters/stable#0:cf8c77fa090e932bd1e74f7446d29a350dadb2c1#953b3b4ca13e873201808ce4d98d21bc",
+    "options": "fPIC=True\nshared=False\nlibx11:fPIC=True\nlibx11:shared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxcb:fPIC=True\nlibxcb:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False\nlibxext:fPIC=True\nlibxext:shared=False\nlibxrender:fPIC=True\nlibxrender:shared=False",
+    "requires": [
+     "24",
+     "25"
+    ]
+   },
+   "24": {
+    "pref": "libxrender/0.9.10@bincrafters/stable#0:c021b624b5bdd85f321322ae08d6f3cd7ab8b081#e9ab9bec70781c4170aa1de6a6077f52",
+    "options": "fPIC=True\nshared=False\nlibx11:fPIC=True\nlibx11:shared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxcb:fPIC=True\nlibxcb:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False",
+    "requires": [
+     "13"
+    ]
+   },
+   "25": {
+    "pref": "libxext/1.3.4@bincrafters/stable#0:c021b624b5bdd85f321322ae08d6f3cd7ab8b081#3a76e8e37712320ebea15d0d1a56f16b",
+    "options": "fPIC=True\nshared=False\nlibx11:fPIC=True\nlibx11:shared=False\nlibxau:fPIC=True\nlibxau:shared=False\nlibxcb:fPIC=True\nlibxcb:shared=False\nlibxdmcp:fPIC=True\nlibxdmcp:shared=False",
+    "requires": [
+     "13"
+    ]
+   },
+   "26": {
+    "pref": "opengl/virtual@bincrafters/stable#0:25315d66e1f567146d60eadc7d8fc22e5398fdaf#0",
+    "options": "provider=system"
+   },
+   "27": {
+    "pref": "catch2/2.11.0#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "28": {
+    "pref": "docopt.cpp/0.6.2#0:089583db87cc9bb721a186e76f9ddd934d557dba#4fd83d2bbd92c39fa4f33adf748421bd",
+    "options": "boost_regex=False\nfPIC=True\nshared=False"
+   },
+   "29": {
+    "pref": "fmt/6.2.0#0:089583db87cc9bb721a186e76f9ddd934d557dba#3446bbd70f7d4591d5d12f263301d7ce",
+    "options": "fPIC=True\nheader_only=False\nshared=False\nwith_fmt_alias=False"
+   },
+   "30": {
+    "pref": "spdlog/1.5.0#0:b01e8d7d665f1426b9d7775a8f594b3f177cbb7e#e6508d5bcf33cd2482c0b1c7937c602e",
+    "options": "fPIC=True\nheader_only=False\nno_exceptions=False\nshared=False\nwchar_filenames=False\nwchar_support=False\nfmt:fPIC=True\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False",
+    "requires": [
+     "29"
+    ]
+   }
+  }
+ },
+ "version": "0.3"
+}

@@ -1,0 +1,5 @@
+if(EXISTS "/home/alejandro/Proyectos/stdvector_visualizer/build/test/tests_tests-4c0d252.cmake")
+  include("/home/alejandro/Proyectos/stdvector_visualizer/build/test/tests_tests-4c0d252.cmake")
+else()
+  add_test(tests_NOT_BUILT-4c0d252 tests_NOT_BUILT-4c0d252)
+endif()
